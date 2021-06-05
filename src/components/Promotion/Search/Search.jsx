@@ -2,7 +2,7 @@ import './Search.css'
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import PromotionCard from '../Card/Card'
+import PromotionList from '../List/List'
 
 const PromotionSearch = () => {
 
@@ -33,7 +33,7 @@ const PromotionSearch = () => {
         value={search}
         onChange={ ev => setSearch(ev.target.value) }
       />
-      { promotions.map((promotion) => <PromotionCard promotion={promotion} /> )}
+      <PromotionList promotions={ promotions } loading={ !promotions.length } />
     </div>
   )
 }
