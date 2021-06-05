@@ -4,7 +4,7 @@ import './Container.css'
 const UIContainer = ({children}) => {
   return(
     <div className="ui-container">
-      {/* {children} */} Olá mundo
+      {children}
     </div>
   )
 }
