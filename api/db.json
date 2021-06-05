@@ -29,11 +29,18 @@
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem_url/9c4b176eb52bb4877e853cf36393d8fc.jpg"
     },
     {
-      "title": "Bicicleta Alumínio Aro 29 Ksw 24 Velocidades Freio A Disco Krw16 - Tamanho 17\"",
+      "title": "Bicicleta Alumínio Aro 29 Ksw 24 Velocidades Freio A Disco Krw16 - Tamanho 17\" Teste Update",
       "url": "https://tidd.ly/3cmcG09",
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem/026a0f72044e0b9d067d2eb56195282c.jpg",
       "price": "1187",
       "id": 5
+    },
+    {
+      "title": "Assetto Corsa Competizione - PC Steam",
+      "url": "https://store.steampowered.com/app/805550/Assetto_Corsa_Competizione/",
+      "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem_url/c5b1692041488b056de0628fbbacaa42.png",
+      "price": "63",
+      "id": 6
     }
   ],
   "comments": [
