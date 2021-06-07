@@ -7,7 +7,6 @@ import PromotionList from '../List/List'
 
 const PromotionSearch = () => {
 
-  // const [promotions, setPromotions] = useState([])
   const [search, setSearch] = useState('')
   const [load, loadInfo] = useApi({
     url: 'http://localhost:8000/promotions',
@@ -37,7 +36,11 @@ const PromotionSearch = () => {
         value={search}
         onChange={ ev => setSearch(ev.target.value) }
       />
-      <PromotionList promotions={ loadInfo.data } loading={ loadInfo.loading } />
+      <PromotionList 
+      promotions={ loadInfo.data }
+      loading={ loadInfo.loading }
+      error={ loadInfo.error }
+      />
     </div>
   )
 }
