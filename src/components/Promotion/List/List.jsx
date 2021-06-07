@@ -4,8 +4,12 @@ import PromotionCard from '../Card/Card'
 
 const PromotionList = ( { loading, promotions }) => {
 
-  if(loading) {
+  if(loading || promotions === null) {
     return <div> Carregando... </div>
+  }
+
+  if(promotions.length === 0) {
+    return <div>Nenhum resultado encontrado</div>
   }
 
   return(
